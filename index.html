@@ -33,7 +33,7 @@
     <header id="masthead">
         <div id="masthead-container">
             <div OnClick="location.href='index.html'" style="cursor:pointer;" class="masthead-container">
-                <a > 숨은 빛 찾기 - 김서연 작가 (@b2urselvv)</a>
+                <a > 숨은 빛 찾기 - 김서연 (@b2urselvv)</a>
                 <a style="margin-bottom:0px">2nd New Classic.  2023.3.4.Sat - 4.16.Sun</a>
             </div> 
 
@@ -66,7 +66,7 @@
                             <div id="fe-page-manager-container">
                                 <div id="fe-page-manager-container">
                             <!--img class="page-background-ratio" src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt=""-->
-                            <p class=" font-top-feature"><br>작가노트</p>
+                            <p class=" font-top-feature"><br>"숨은 빛 찾기"</p>
                             <p class=" font-top-feature-context">빛은 대체로 내게 따스하고 포근했다<br><br>
 
                                     나의 시선은 유독 "그 빛"을 따라다녔다.<br>
@@ -82,10 +82,7 @@
                                     <div class="row row-cols-3 row-cols-md-4 g-4" id="movie-list">
                                         <div class="col">
                                             <div class="card h-100">
-                                                <img src="..." class="card-img-top" alt="...">
-                                                <div class="card-body d-flex flex-column">
-                                                    <h5 class="card-title">Card title</h5>
-                                                </div>
+                                                <img src="./img/KakaoTalk_20230301_182230449.jpg" class="card-img-top" alt="...">
                                             </div>
                                         </div>
                                     </div>
@@ -101,19 +98,26 @@
                         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>         
                         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>        
                         <script>
+                            /*
                             $(document).ready(function(){
                             console.log("시작")
                             
                             $.ajax({
-                                url: "https://api.themoviedb.org/3/movie/popular?api_key=10923b261ba94d897ac6b81148314a3f&page=1", 
-                                data: {"key":"value" },
-                                type: "POST",
-                                success:function(json){
-                                console.log(json)
-                            
+                                url: "https://github.com/b2urselvv/2ndNewClassic/tree/master/img/",
+  success: function(data){
+     $(data).find("a:contains(.jpg)").each(function(){
+        // will loop through 
+        var images = $(this).attr("href");
+        console.log(images);
+        //$('<p></p>').html(images).appendTo('a div of your choice')
+
+     });
+  }*/
+                                    /*
                                 $("#movie-list").html('')
                                 let movie_list =json.results;
                             
+                                
                                 for(let i =0; i <movie_list.length; i++){
                                     let card= `<div class="col">
                                     <div class="card">
@@ -132,10 +136,11 @@
                                 error:function(err){
                             
                                 }
-                            })
+                                */
+ //                           })
                     
                     
-                            })
+//                            })
 
                         </script>
                 
