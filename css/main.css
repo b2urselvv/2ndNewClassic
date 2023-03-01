@@ -9,6 +9,7 @@ html, body  {
   --header-right-left-container-size: 150px;
   --searchBar-min-width:294px;
   --height-header:56px;
+  --min-width-iphone:375px;
 }
 header{
   top:0;
@@ -74,7 +75,7 @@ main {
   align-items:center;
   color:var(--color-black);
   padding-left: 10px;
-  padding-right: 0px;
+  padding-right: 20px;
 }
 
 .masthead-container {
@@ -106,7 +107,7 @@ main {
   display:flex;
   justify-content: center;
   align-items: center;
-  padding-right:20px;
+  width:36px ;
   margin:0;
 }
 
@@ -234,7 +235,7 @@ main {
   padding-right:20px;
   padding-left:20px;
   padding-top:30px;
-  min-width: 400px;
+  min-width: var(--min-width-iphone);
 }
 
 #fe-page-manager-container {
@@ -284,11 +285,11 @@ main {
 /* */
 .border-top{
 
-  min-width: 400px;
+  min-width: var(--min-width-iphone);
 }
 
 .min-width-400px{
-  min-width: 400px;
+  min-width: var(--min-width-iphone);
 }
 
 
