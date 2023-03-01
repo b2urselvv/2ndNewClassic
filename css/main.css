@@ -1,6 +1,6 @@
 html, body  {
   margin:0;
-  background-color: #F2F2F2;
+  background-color: white;
 }
 :root{
   --bg-black: #222222;
@@ -112,7 +112,7 @@ main {
 
 .nav-item{
   display:flex;
-  color: var(--bg-grey);
+  color: var(--bg-white);
 }
 
 #logo-img{
@@ -181,7 +181,7 @@ main {
   border:none;
   outline: none;
   color:var(--color-black);
-  caret-color: #ECECED;
+  caret-color: var(--color-white);
   width: calc(100% - 32px);
 }
 #masthead-center-search-button{
@@ -282,6 +282,12 @@ main {
 }
 
 /* */
+.border-top{
+  min-width: 400px;
+}
+
+
 .container{
+  width:100px;
   background-color: var(--color-white);
 }
