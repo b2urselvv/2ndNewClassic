@@ -37,7 +37,7 @@ main {
 }
 
 .--bg-grey{
-  background-color:#ECECED;
+  background-color:var(--color-white);
 }
 
 .--bg-white{
