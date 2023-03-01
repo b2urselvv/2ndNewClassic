@@ -283,6 +283,11 @@ main {
 
 /* */
 .border-top{
+
+  min-width: 400px;
+}
+
+.min-width-400px{
   min-width: 400px;
 }
 
