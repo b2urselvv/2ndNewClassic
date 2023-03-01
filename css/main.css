@@ -284,6 +284,7 @@ main {
 
 /* */
 .border-top{
+  text-align: center;
 
   min-width: var(--min-width-iphone);
 }
