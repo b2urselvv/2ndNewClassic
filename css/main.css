@@ -220,6 +220,7 @@ main {
   padding-right:100px;
   padding-left:100px;
   padding-top:30px;
+  min-width: 400px;
 }
 
 #fe-page-manager-container {
