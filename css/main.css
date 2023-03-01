@@ -58,8 +58,21 @@ main {
   display: flex;
   width: 100%;
   max-width:1320px;
+  flex-direction:column;
   justify-content: space-between;
   align-items:center;
+  color:white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.masthead-container {
+  display: flex;
+  width: 100%;
+  max-width:1320px;
+  flex-direction:column;
+  justify-content: space-between;
+  align-items:flex-start;
   color:white;
   padding-left: 10px;
   padding-right: 10px;
