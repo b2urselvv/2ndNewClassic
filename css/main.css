@@ -259,6 +259,11 @@ main {
   font-size:1rem;
 }
 
+.font-top-feature-context-dot{
+  display:flex;
+  justify-content: center;
+}
+
 .font-top-feature-context-find-light{
   display:flex;
   justify-content: center;
